@@ -153,6 +153,12 @@ document.addEventListener('DOMContentLoaded', function () {
         entries.forEach(function (entry) {
             if (entry.isIntersecting) {
                 entry.target.classList.add('animate-in');
+                entry.target.addEventListener('animationend', function handler() {
+                    entry.target.classList.remove('animate-in');
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = '';
+                    entry.target.removeEventListener('animationend', handler);
+                });
                 observer.unobserve(entry.target);
             }
         });
