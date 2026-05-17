@@ -57,8 +57,8 @@ A modern, responsive company website for **CheboreJr**, built with HTML, CSS, an
 - **HTML5** - Semantic markup
 - **CSS3** - Custom properties, Flexbox, Grid, animations
 - **JavaScript** - Vanilla JS (no dependencies)
-- **Google Fonts** - Inter font family
+- **Google Fonts** - Poppins font family
 
 ## License
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details. 
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.   
